@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>
+new page
+</title>
+<body>
+<a href = "%">button</a>
+<p onclick="myfunction(this)">click to change color</p>
+<script src='app1.js'></script>
+</body>
+</head>
+</html>

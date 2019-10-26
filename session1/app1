@@ -1,0 +1,4 @@
+function muFunction(elem){
+    console.log(elem)
+    elem.style.color="red"
+}
