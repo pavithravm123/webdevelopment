@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+<input type="text" id="txt"/>
+<br>
+<input type="button" onclick="fn()" value="click">
+<hr>
+<script>
+function fn()
+{
+    txt=document.getElementById("txt").value;
+    result=confirm("do u want an alert message");
+    if(result)
+    alert(txt);
+    else
+    document.write(txt);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS</title>
+    <script>
+    function printdata(){
+    var data ={
+        name:"pavithra",
+        address:"india",
+        DOB:"19-03-2000",
+        Branch:"ise",
+        Roll:"54",
+    }
+    document.getElementById("demo").innerHTML=data.name +data.address +data.DOB +data.Branch +data.Roll;
+    }
+    function date(){
+    document.getElementById("demo1").innerHTML=Date();
+    }
+    </script>
+</head>
+<body>
+    <h1>Script function</h1>
+    <p id="demo">NAME is </p>
+    <button type="button" onclick="printdata()">Click here</button>
+    <p id="demo1">Todays date is</p>
+<button type="button" onclick="date()">click here button</button>
+</body>
+</html>
+
+   
